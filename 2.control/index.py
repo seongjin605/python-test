@@ -22,3 +22,10 @@ for x in family:
 
 result = list(range(2, 7))
 print (result)
+
+serial = "N134-SDJHKFSHD-91910"
+splitedText = serial.split("-")
+print(splitedText)
+
+for text in splitedText:
+    print(text)
