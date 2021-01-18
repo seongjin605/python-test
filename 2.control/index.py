@@ -14,3 +14,11 @@ else:
     print('I don\'t know')
 
 pprint.pprint(locals())
+
+family = ['mother', 'father', 'gentleman', 'sexy lady']
+
+for x in family:
+    print('%s %d' % (x, len(x)))
+
+result = list(range(2, 7))
+print (result)
